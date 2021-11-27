@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import notebookImage from "../../assets/notebook.jpg";
-import classes from "./Header.module.css";
+import classes from "./Header.module.scss";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
       <header className={classes.header}>
         <h1>NoteBook</h1>
       </header>
-      <div className={classes.headerImage}>
+      <div className={classes["header-image"]}>
         <img src={notebookImage} alt="notebook" />
       </div>
     </Fragment>
