@@ -1,0 +1,30 @@
+.form {
+  margin: 1rem 0;
+  overflow: auto;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  label {
+    font-weight: bold;
+  }
+  textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding: 0 0.5rem;
+    resize: none;
+    height: 15rem;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  button {
+    padding: 0.5rem 2rem;
+  }
+}
