@@ -3,44 +3,32 @@ import Input from "../UI/Input";
 import Button from "../UI/Button";
 import classes from "./NotesForm.module.scss";
 
-const Notesform = () => {
-  const [enteredDate, setEnteredDate] = useState("");
-  const [enteredDescription, setEnteredDescription] = useState("");
-  const confirmHandler = (e) => {
+const Notesform = ({ createNote }) => {
+  const [note, setNote] = useState({ description: "", date: "" });
+
+  const addNewNoteHandler = (e) => {
     e.preventDefault();
-  };
-
-  const descriptionHandler = (e) => {
-    setEnteredDescription(e.target.value);
-  };
-
-  const dateHandler = (e) => {
-    setEnteredDate(e.target.value);
-  };
-
-  const addNewNoteHandler = () => {
-    console.log(enteredDescription);
-    console.log(enteredDate);
-    setEnteredDescription("");
-    setEnteredDate("");
+    const newNote = { ...note, id: Date.now() };
+    setNote({ description: "", date: "" });
+    createNote(newNote);
   };
 
   return (
-    <form className={classes.form} onSubmit={confirmHandler}>
+    <form className={classes.form}>
       <div className={classes.textarea}>
         <label htmlFor="note">Note</label>
         <textarea
           id="note"
-          value={enteredDescription}
-          onChange={descriptionHandler}
+          value={note.description}
+          onChange={(e) => setNote({ ...note, description: e.target.value })}
         ></textarea>
       </div>
       <Input
         label="Date"
         id="date"
         type="date"
-        value={enteredDate}
-        onChange={dateHandler}
+        value={note.date}
+        onChange={(e) => setNote({ ...note, date: e.target.value })}
       />
       <div className={classes.actions}>
         <Button onClick={addNewNoteHandler}>Add To NoteBook</Button>
