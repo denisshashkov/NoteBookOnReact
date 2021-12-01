@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/NoteBookOnReact/static/css/main.9d4cbb13.chunk.css",
-    "main.js": "/NoteBookOnReact/static/js/main.aaf8f439.chunk.js",
-    "main.js.map": "/NoteBookOnReact/static/js/main.aaf8f439.chunk.js.map",
+    "main.css": "/NoteBookOnReact/static/css/main.bbe14bdb.chunk.css",
+    "main.js": "/NoteBookOnReact/static/js/main.498bcb67.chunk.js",
+    "main.js.map": "/NoteBookOnReact/static/js/main.498bcb67.chunk.js.map",
     "runtime-main.js": "/NoteBookOnReact/static/js/runtime-main.ff89cb9c.js",
     "runtime-main.js.map": "/NoteBookOnReact/static/js/runtime-main.ff89cb9c.js.map",
-    "static/js/2.20f44df4.chunk.js": "/NoteBookOnReact/static/js/2.20f44df4.chunk.js",
-    "static/js/2.20f44df4.chunk.js.map": "/NoteBookOnReact/static/js/2.20f44df4.chunk.js.map",
+    "static/js/2.43c8f374.chunk.js": "/NoteBookOnReact/static/js/2.43c8f374.chunk.js",
+    "static/js/2.43c8f374.chunk.js.map": "/NoteBookOnReact/static/js/2.43c8f374.chunk.js.map",
     "index.html": "/NoteBookOnReact/index.html",
-    "static/css/main.9d4cbb13.chunk.css.map": "/NoteBookOnReact/static/css/main.9d4cbb13.chunk.css.map",
-    "static/js/2.20f44df4.chunk.js.LICENSE.txt": "/NoteBookOnReact/static/js/2.20f44df4.chunk.js.LICENSE.txt",
+    "static/css/main.bbe14bdb.chunk.css.map": "/NoteBookOnReact/static/css/main.bbe14bdb.chunk.css.map",
+    "static/js/2.43c8f374.chunk.js.LICENSE.txt": "/NoteBookOnReact/static/js/2.43c8f374.chunk.js.LICENSE.txt",
     "static/media/notebook.966139c6.jpg": "/NoteBookOnReact/static/media/notebook.966139c6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ff89cb9c.js",
-    "static/js/2.20f44df4.chunk.js",
-    "static/css/main.9d4cbb13.chunk.css",
-    "static/js/main.aaf8f439.chunk.js"
+    "static/js/2.43c8f374.chunk.js",
+    "static/css/main.bbe14bdb.chunk.css",
+    "static/js/main.498bcb67.chunk.js"
   ]
 }
